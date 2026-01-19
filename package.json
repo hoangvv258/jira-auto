@@ -1,0 +1,22 @@
+{
+  "name": "jira-auto",
+  "version": "1.0.0",
+  "description": "CLI tool to create Jira tickets using AI-generated content",
+  "main": "index.js",
+  "bin": {
+    "create-jira-ticket": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0"
+  },
+  "keywords": ["jira", "cli", "ai", "automation"],
+  "author": "Your Name",
+  "license": "MIT"
+}</content>
+<parameter name="filePath">/workspaces/jira-auto/package.json
